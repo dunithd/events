@@ -1,6 +1,6 @@
 
 # Stateless Stream Processing Job with Apache Flink and Apache Kafka
-This repo contains the sample code for the session presented during Frankfurt Kafka meetup on 11/June/2024.
+This repo contains the sample code for the session presented during Big Data Demystified London on 16/July/2024.
 
 ## Generate a quickstart Java project  
 
@@ -14,8 +14,8 @@ mvn archetype:generate \
 
 env.fromSequence(1,10).map(i -> 2 * i).print();
 
-## Create Kafka topics
-
+## Create Redpanda topics
+Use the Redpanda console. https://localhost:8080/topics
 
 
 ## Produce data with `kcat` 
